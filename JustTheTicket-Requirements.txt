@@ -12,3 +12,14 @@ Rationale: The Commonwealth Games encourages attendance by the public, but must 
 Originator: Thomas Shelby.
 Comments: [CC-002] Created and committed 01-FEB-2019.
 
+REQ-ID: AM-001
+Description: Locate the tickets in the ticketing database and ensure validity
+Rationale: to verify that the tickets haven’t already been returned, refunded, or reallocated.
+Originator: Polly Gray
+Comments: [AM-001] Created and committed 02-FEB-2019.
+
+REQ-ID: AM-002
+Description: Capture the reasons for customer return
+Rationale: to monitor a potential pattern of fraud
+Originator: Polly Gray
+Comments: [AM-002] Created and committed 02-FEB-2019.

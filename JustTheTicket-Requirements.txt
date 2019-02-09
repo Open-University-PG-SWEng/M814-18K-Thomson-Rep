@@ -1,4 +1,4 @@
-REQ-ID: CC-001.
+﻿REQ-ID: CC-001.
 Description: The system shall only allow a ticket refund if the sporting event associated with the ticket has not taken place yet. 
 Type: 9
 Rationale: Once a sporting event has taken place a customer cannot request a refund because the event is now in the past. 
@@ -23,3 +23,17 @@ Description: Capture the reasons for customer return
 Rationale: to monitor a potential pattern of fraud
 Originator: Polly Gray
 Comments: [AM-002] Created and committed 02-FEB-2019.
+
+REQ-ID: DJT-001
+Description – The Product should allocate a number of tickets to each event
+Rationale – The product should determine a maximum allocation for each event so that ticket sales can be monitored for appropriate levels of sales to maintain a full stadium
+Originator - Polly Gray - responsible for domestic ticket sales for the XXII Commonwealth Games while
+Comments: [DJT-001] Created and committed 09th Feb 2019
+
+REQ-ID: DJT-002
+Description – Returning a ticket will increase the number of tickets available for an event
+Rationale – A ticket return will reduce ticket allocation for an event and hence increase the number of tickets available for sale 
+Originator - Polly Gray - responsible for domestic ticket sales for the XXII Commonwealth Games
+Comments: [DJT-002] Created and committed 09th Feb 2019
+
+

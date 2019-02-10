@@ -48,4 +48,14 @@ Rationale: To make any seats that has now become available to be reallocated to 
 Originator: Polly Gray
 Comments: [RB-001] Created and committed 09-FEB-2019.
 
+REQ-ID: OH-001
+Description: The website should allow the customer to enter ticket number(s) to initiate a ticket return.
+Rationale: Entering the ticket numbers would allow the system to track down the related event and the customer who initially purchased the ticket(s). 
+Originator: Thomas Shelby.
+Comments: [OH-001] Created and committed 10th Feb 2019.
 
+REQ-ID: OH-002
+Description: The website should allow a customer to login with a personal combination of username and password. 
+Rationale: Allowing customers to login with their individual username and password would enable the application to identify and verify the customer identity that initiated the ticket(s) return. 
+Originator: Thomas Shelby.
+Comments: [OH-002] Created and committed 10th Feb 2019.

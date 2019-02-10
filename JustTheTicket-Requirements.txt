@@ -1,4 +1,4 @@
-﻿REQ-ID: CC-001.
+REQ-ID: CC-001.
 Description: The system shall only allow a ticket refund if the sporting event associated with the ticket has not taken place yet. 
 Type: 9
 Rationale: Once a sporting event has taken place a customer cannot request a refund because the event is now in the past. 
@@ -48,4 +48,14 @@ Rationale: To make any seats that has now become available to be reallocated to 
 Originator: Polly Gray
 Comments: [RB-001] Created and committed 09-FEB-2019.
 
+REQ-ID: TC-001
+Description: The software must be able to identify specific bookings using information provided by the user who made the booking
+Rationale: To allow a user to collect tickets or amend the booking.
+Originator: Polly Gray
+Comments: [TC-001] Created and committed 10-FEB-2019.
 
+REQ-ID: TC-002
+Description: The software must be capable of refunding money paid for unwanted tickets to the user who originally paid.
+Rationale: If a user does not get their money back it is likely to cause legal problems
+Originator: Thomas Shelby
+Comments: [TC-002] Created and committed 10-FEB-2019.

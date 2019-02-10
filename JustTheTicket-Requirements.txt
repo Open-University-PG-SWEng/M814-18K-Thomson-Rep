@@ -36,4 +36,16 @@ Rationale – A ticket return will reduce ticket allocation for an event and hen
 Originator - Polly Gray - responsible for domestic ticket sales for the XXII Commonwealth Games
 Comments: [DJT-002] Created and committed 09th Feb 2019
 
+REQ-ID: RB-001
+Description: The system shall search for the customer registration to identify the customer returning ticket
+Rationale: To check if the person intending to return the ticket is a registered customer and the same who made that ticket purchase
+Originator: Thomas Shelby
+Comments: [RB-001] Created and committed 09-FEB-2019.
+
+REQ-ID: RB-002
+Description: The system shall add the ticket to the reallocation list to be reallocated every 24 hrs
+Rationale: To make any seats that has now become available to be reallocated to those on the waiting list in a manageable and consistent manner
+Originator: Polly Gray
+Comments: [RB-001] Created and committed 09-FEB-2019.
+
 

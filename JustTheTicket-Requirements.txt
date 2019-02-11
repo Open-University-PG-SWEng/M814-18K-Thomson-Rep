@@ -1,4 +1,4 @@
-REQ-ID: CC-001.
+﻿REQ-ID: CC-001.
 Description: The system shall only allow a ticket refund if the sporting event associated with the ticket has not taken place yet. 
 Type: 9
 Rationale: Once a sporting event has taken place a customer cannot request a refund because the event is now in the past. 
@@ -71,3 +71,9 @@ Description: The website should allow a customer to login with a personal combin
 Rationale: Allowing customers to login with their individual username and password would enable the application to identify and verify the customer identity that initiated the ticket(s) return. 
 Originator: Thomas Shelby.
 Comments: [OH-002] Created and committed 10th Feb 2019.
+
+REQ-ID: AF-001
+Description: The product shall check if the ticket is already expired
+Rationale: To avoid unrightful refund claims
+Originator: Customer
+Comments: [AF-001] Created and committed 11th Feb 2019.

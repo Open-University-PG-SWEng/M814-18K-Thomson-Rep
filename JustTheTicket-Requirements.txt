@@ -77,3 +77,9 @@ Description: The product shall check if the ticket is already expired
 Rationale: To avoid unrightful refund claims
 Originator: Customer
 Comments: [AF-001] Created and committed 11th Feb 2019.
+
+REQ-ID: AF-002
+Description: The product shall updates DMS (live ticket information database) about returned ticket statuses according to the decision of the “Ticket Review Team”.
+Rationale: To make returned tickets available again 
+Originator: Ticket Review Team
+Comments: [AF-002] Created and committed 11th Feb 2019.

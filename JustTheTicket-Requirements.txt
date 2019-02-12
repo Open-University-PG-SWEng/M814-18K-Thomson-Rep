@@ -95,3 +95,13 @@ Confirm customer is the returned ticket Owner.
 Description: The system will compare customer's identity to the accessed ticket customer,s identity.
 Rational	: To ensure decision to return is that of the original customer to avoid redudiation.
 Originator	: Thomas Selby
+
+REQ-ID: CS-001
+Description: The system will ensure that the event for which the tickets are being returned is in the future.
+Rational: Refunds cannot be issued for events that are in the past.
+Originator: Polly Gray
+
+REQ-ID: CS-002
+Description: The system will ensure that tickets are returned to a reallocation pool, not back to the general inventory.
+Rational: To ensure that tickets are reallocated to those on the waiting list and not purchased as a general sale.
+Originator: Polly Gary

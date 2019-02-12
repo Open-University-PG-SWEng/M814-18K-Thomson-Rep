@@ -1,4 +1,4 @@
-ÔªøREQ-ID: CC-001.
+REQ-ID: CC-001.
 Description: The system shall only allow a ticket refund if the sporting event associated with the ticket has not taken place yet. 
 Type: 9
 Rationale: Once a sporting event has taken place a customer cannot request a refund because the event is now in the past. 
@@ -14,7 +14,7 @@ Comments: [CC-002] Created and committed 01-FEB-2019.
 
 REQ-ID: AM-001
 Description: Find the tickets and ensure validity
-Rationale: to verify that the tickets haven‚Äôt already been returned, refunded, or reallocated.
+Rationale: to verify that the tickets havenít already been returned, refunded, or reallocated.
 Originator: Polly Gray
 Comments: [AM-001] Created and committed 02-FEB-2019.
 
@@ -25,14 +25,14 @@ Originator: Polly Gray
 Comments: [AM-002] Created and committed 02-FEB-2019.
 
 REQ-ID: DJT-001
-Description ‚Äì The Product should allocate a number of tickets to each event
-Rationale ‚Äì The product should determine a maximum allocation for each event so that ticket sales can be monitored for appropriate levels of sales to maintain a full stadium
+Description ñ The Product should allocate a number of tickets to each event
+Rationale ñ The product should determine a maximum allocation for each event so that ticket sales can be monitored for appropriate levels of sales to maintain a full stadium
 Originator - Polly Gray - responsible for domestic ticket sales for the XXII Commonwealth Games while
 Comments: [DJT-001] Created and committed 09th Feb 2019
 
 REQ-ID: DJT-002
-Description ‚Äì Returning a ticket will increase the number of tickets available for an event
-Rationale ‚Äì A ticket return will reduce ticket allocation for an event and hence increase the number of tickets available for sale 
+Description ñ Returning a ticket will increase the number of tickets available for an event
+Rationale ñ A ticket return will reduce ticket allocation for an event and hence increase the number of tickets available for sale 
 Originator - Polly Gray - responsible for domestic ticket sales for the XXII Commonwealth Games
 Comments: [DJT-002] Created and committed 09th Feb 2019
 
@@ -79,7 +79,19 @@ Originator: Customer
 Comments: [AF-001] Created and committed 11th Feb 2019.
 
 REQ-ID: AF-002
-Description: The product shall updates DMS (live ticket information database) about returned ticket statuses according to the decision of the ‚ÄúTicket Review Team‚Äù.
+Description: The product shall updates DMS (live ticket information database) about returned ticket statuses according to the decision of the ìTicket Review Teamî.
 Rationale: To make returned tickets available again 
 Originator: Ticket Review Team
 Comments: [AF-002] Created and committed 11th Feb 2019.
+
+REQ-ID: SAB-001
+Locate Ticket purchased
+Description: The system will retrieve copy of ticket stored.
+Rational	: To ensure the authenticity of returned tickets.
+Originator	: Thomas Selby
+
+REQ-ID: SAB-002
+Confirm customer is the returned ticket Owner.
+Description: The system will compare customer's identity to the retrived ticket customer,s identity.
+Rational	: To ensure decision to return is that of the original customer to avoid redudiation.
+Originator	: Thomas Selby

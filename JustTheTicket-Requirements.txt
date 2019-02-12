@@ -105,3 +105,13 @@ REQ-ID: CS-002
 Description: The system will ensure that tickets are returned to a reallocation pool, not back to the general inventory.
 Rational: To ensure that tickets are reallocated to those on the waiting list and not purchased as a general sale.
 Originator: Polly Gary
+
+REQ-ID: SS-001
+Description: The product shall allow the customer to specify a reason for return for each ticket to be returned.
+Rationale: The customer may return multiple tickets (for same event or different events) with each return having a different reason.
+Originator: Thomas Shelby
+
+REQ-ID: SS-002
+Description: The product shall calculate the correct refund amount for ticket(s).
+Rationale: To avoid legal and reputational consequences, the customer must receive the correct refund based on the ticket(s) original purchase price despite potential variations in price since original purchase.
+Originator: Polly Gray

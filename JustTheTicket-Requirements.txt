@@ -86,12 +86,12 @@ Comments: [AF-002] Created and committed 11th Feb 2019.
 
 REQ-ID: SAB-001
 Locate Ticket purchased
-Description: The system will retrieve copy of ticket stored.
-Rational	: To ensure the authenticity of returned tickets.
+Description: The system will access copy of ticket stored.
+Rational	: To ensure the authenticity of returned ticket(s).
 Originator	: Thomas Selby
 
 REQ-ID: SAB-002
 Confirm customer is the returned ticket Owner.
-Description: The system will compare customer's identity to the retrived ticket customer,s identity.
+Description: The system will compare customer's identity to the accessed ticket customer,s identity.
 Rational	: To ensure decision to return is that of the original customer to avoid redudiation.
 Originator	: Thomas Selby

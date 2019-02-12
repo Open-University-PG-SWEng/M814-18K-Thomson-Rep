@@ -112,6 +112,6 @@ Rationale: The customer may return multiple tickets (for same event or different
 Originator: Thomas Shelby
 
 REQ-ID: SS-002
-Description: The product shall calculate the correct refund amount for ticket(s).
+Description: The product shall calculate the correct refund amount for returned ticket(s).
 Rationale: To avoid legal and reputational consequences, the customer must receive the correct refund based on the ticket(s) original purchase price despite potential variations in price since original purchase.
 Originator: Polly Gray

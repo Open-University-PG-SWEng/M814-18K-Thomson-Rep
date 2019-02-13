@@ -46,7 +46,7 @@ REQ-ID: RB-002
 Description: The system shall add the ticket to the reallocation list to be reallocated every 24 hrs
 Rationale: To make any seats that has now become available to be reallocated to those on the waiting list in a manageable and consistent manner
 Originator: Polly Gray
-Comments: [RB-001] Created and committed 09-FEB-2019.
+Comments: [RB-002] Created and committed 09-FEB-2019.
 
 REQ-ID: TC-001
 Description: The software must be able to identify specific bookings using information provided by the user who made the booking

@@ -129,3 +129,20 @@ Description: The system shall allow a user to accept or reject a ticket allocate
 Rationale: As these tickets will be allocated via an automated process, the new customer should be able to consent before the system takes payment.
 Originator: Polly Gray
 Comments [PC-002] Created and committed 13-FEB-2009
+
+REQ-ID:  JF-001
+Description: The product shall check that the tickets belong to the customer
+Type: Functional
+Rationale: To ensure that the customer who wants to return the tickets is the owner of them
+Fit Criterion: The system fulfils this requirement if it only allows to return tickets that the customer bought
+Originator: Polly Gray
+Comments: [JF-001] Created and committed 13-FEB-2019
+
+REQ-ID: JF-002
+Description: The product shall check that the tickets are valid for return
+Type: Functional
+Rationale: To ensure that the tickets can be returned
+Fit Criterion: The system fulfils this requirement if it only allows to return tickets that are accepted to be returned
+Originator: Polly Gray
+Comments: [JF-002] Created and committed 13-FEB-2019
+

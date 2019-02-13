@@ -146,3 +146,12 @@ Fit Criterion: The system fulfils this requirement if it only allows to return t
 Originator: Polly Gray
 Comments: [JF-002] Created and committed 13-FEB-2019
 
+REQ-ID: DR-001
+Description: The system shall meet not exceed the revenue target by more than 5%.
+Rationale: The system needs to make a profit but not to generate criticism.
+Originator: Polly Gray
+
+REQ-ID: DR-002
+Description: The system must be transparent in its operation
+Rationale:  There must be no impression that any person or organisation has received preference ticket allocation.
+Originator: Thomas Shelby

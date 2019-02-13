@@ -48,6 +48,18 @@ Rationale: To make any seats that has now become available to be reallocated to 
 Originator: Polly Gray
 Comments: [RB-001] Created and committed 09-FEB-2019.
 
+REQ-ID: TC-001
+Description: The software must be able to identify specific bookings using information provided by the user who made the booking
+Rationale: To allow a user to collect tickets or amend the booking.
+Originator: Polly Gray
+Comments: [TC-001] Created and committed 10-FEB-2019.
+
+REQ-ID: TC-002
+Description: The software must be capable of refunding money that paid for unwanted tickets to the user who originally paid.
+Rationale: If a user does not get their money back it is likely to cause legal problems
+Originator: Thomas Shelby
+Comments: [TC-002] Created and committed 10-FEB-2019.
+
 REQ-ID: OH-001
 Description: The website should allow the customer to enter ticket number(s) to initiate a ticket return.
 Rationale: Entering the ticket numbers would allow the system to track down the related event and the customer who initially purchased the ticket(s). 

@@ -117,3 +117,15 @@ Description: The product shall calculate the correct refund amount for returned 
 Rationale: To avoid legal and reputational consequences, the customer must receive the correct refund based on the ticket(s) original purchase price despite potential variations in price since original purchase.
 Originator: Polly Gray.
 Comments: [SS-002] Created and committed 12-FEB-2019.
+
+REQ-ID: PC-001
+Description: The product shall allow the user to specify any concessionary requirements
+Rationale: The system must be able to prioritise the re-allocation of returned tickets in a fair way.
+Originator: Thomas Selby
+Comments [PC-001] Created and committed 13-FEB-2009
+
+REQ-ID: PC-002
+Description: The system shall allow a user to accept or reject a ticket allocated via the reallocation process
+Rationale: As these tickets will be allocated via an automated process, the new customer should be able to consent before the system takes payment.
+Originator: Polly Gray
+Comments [PC-002] Created and committed 13-FEB-2009

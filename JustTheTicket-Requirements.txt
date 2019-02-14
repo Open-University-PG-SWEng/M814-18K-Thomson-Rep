@@ -1,22 +1,11 @@
+
+###IN SCOPE#########################################################################################################################################################################################################################
 REQ-ID: CC-001.
-Description: The system shall only allow a ticket refund if the sporting event associated with the ticket has not taken place yet. 
+Description: The system shall only allow a ticket refund if the sporting event associated with the ticket has not taken place yet.
 Type: 9
-Rationale: Once a sporting event has taken place a customer cannot request a refund because the event is now in the past. 
+Rationale: Once a sporting event has taken place a customer cannot request a refund because the event is now in the past.
 Originator: Thomas Shelby.
 Comments: [CC-001] Created and committed 01-FEB-2019.
-
-REQ-ID: CC-002.
-Description: The system shall support ticket requests originating from the general public, sponsor companies, sports officials from Commonwealth countries and competitor guests. 
-Type: 9
-Rationale: The Commonwealth Games encourages attendance by the public, but must also fulfil an obligation to sponsors, officials and competitors by making a share of tickets available to all types of spectator. 
-Originator: Thomas Shelby.
-Comments: [CC-002] Created and committed 01-FEB-2019.
-
-REQ-ID: AM-001
-Description: Find the tickets and ensure validity
-Rationale: to verify that the tickets haven’t already been returned, refunded, or reallocated.
-Originator: Polly Gray
-Comments: [AM-001] Created and committed 02-FEB-2019.
 
 REQ-ID: AM-002
 Description: Capture the reasons for customer return
@@ -24,15 +13,9 @@ Rationale: to monitor a potential pattern of fraud
 Originator: Polly Gray
 Comments: [AM-002] Created and committed 02-FEB-2019.
 
-REQ-ID: DJT-001
-Description – The Product should allocate a number of tickets to each event
-Rationale – The product should determine a maximum allocation for each event so that ticket sales can be monitored for appropriate levels of sales to maintain a full stadium
-Originator - Polly Gray - responsible for domestic ticket sales for the XXII Commonwealth Games while
-Comments: [DJT-001] Created and committed 09th Feb 2019
-
 REQ-ID: DJT-002
 Description – Returning a ticket will increase the number of tickets available for an event
-Rationale – A ticket return will reduce ticket allocation for an event and hence increase the number of tickets available for sale 
+Rationale – A ticket return will reduce ticket allocation for an event and hence increase the number of tickets available for sale
 Originator - Polly Gray - responsible for domestic ticket sales for the XXII Commonwealth Games
 Comments: [DJT-002] Created and committed 09th Feb 2019
 
@@ -47,13 +30,6 @@ Description: The system shall add the ticket to the reallocation list to be real
 Rationale: To make any seats that has now become available to be reallocated to those on the waiting list in a manageable and consistent manner
 Originator: Polly Gray
 Comments: [RB-002] Created and committed 09-FEB-2019.
-
-REQ-ID: TC-001
-Description: The software must be able to identify specific bookings using information provided by the user who made the booking
-Rationale: To allow a user to collect tickets or amend the booking.
-Originator: Polly Gray
-Comments: [TC-001] Created and committed 10-FEB-2019.
-
 REQ-ID: TC-002
 Description: The software must be capable of refunding money that paid for unwanted tickets to the user who originally paid.
 Rationale: If a user does not get their money back it is likely to cause legal problems
@@ -62,15 +38,9 @@ Comments: [TC-002] Created and committed 10-FEB-2019.
 
 REQ-ID: OH-001
 Description: The website should allow the customer to enter ticket number(s) to initiate a ticket return.
-Rationale: Entering the ticket numbers would allow the system to track down the related event and the customer who initially purchased the ticket(s). 
+Rationale: Entering the ticket numbers would allow the system to track down the related event and the customer who initially purchased the ticket(s).
 Originator: Thomas Shelby.
 Comments: [OH-001] Created and committed 10th Feb 2019.
-
-REQ-ID: OH-002
-Description: The website should allow a customer to login with a personal combination of username and password. 
-Rationale: Allowing customers to login with their individual username and password would enable the application to identify and verify the customer identity that initiated the ticket(s) return. 
-Originator: Thomas Shelby.
-Comments: [OH-002] Created and committed 10th Feb 2019.
 
 REQ-ID: AF-001
 Description: The product shall check if the ticket is already expired
@@ -80,7 +50,7 @@ Comments: [AF-001] Created and committed 11th Feb 2019.
 
 REQ-ID: AF-002
 Description: The product shall updates DMS (live ticket information database) about returned ticket statuses according to the decision of the “Ticket Review Team”.
-Rationale: To make returned tickets available again 
+Rationale: To make returned tickets available again
 Originator: Ticket Review Team
 Comments: [AF-002] Created and committed 11th Feb 2019.
 
@@ -146,11 +116,6 @@ Fit Criterion: The system fulfils this requirement if it only allows to return t
 Originator: Polly Gray
 Comments: [JF-002] Created and committed 13-FEB-2019
 
-REQ-ID: DR-001
-Description: The system shall meet not exceed the revenue target by more than 5%.
-Rationale: The system needs to make a profit but not to generate criticism.
-Originator: Polly Gray
-
 REQ-ID: DR-002
 Description: The system must be transparent in its operation
 Rationale:  There must be no impression that any person or organisation has received preference ticket allocation.
@@ -162,6 +127,47 @@ Rationale: To ensure that any black market activity is reduced or eliminated and
 Originator: Thomas Selby
 
 REQ-IQ: LA-002
-Description: The system shall ensure that any returned tickets are allocated to a fair reallocation pool. 
+Description: The system shall ensure that any returned tickets are allocated to a fair reallocation pool.
 Rationale: To ensure that tickets are fairly reallocated to a transparent waiting list so that return reasons are tracked and that return patterns are identified in order to eliminate fraudulent activities.
 Originator: Polly Gray
+
+REQ-ID: AM-001
+Description: Find the tickets and ensure validity
+Rationale: to verify that the tickets haven’t already been returned, refunded, or reallocated.
+Originator: Polly Gray
+Comments: [AM-001] Created and committed 02-FEB-2019.
+
+####################################################################################################################################################################################################################################
+
+###OUT OF SCOPE#####################################################################################################################################################################################################################
+REQ-ID: CC-002.
+Description: The system shall support ticket requests originating from the general public, sponsor companies, sports officials from Commonwealth countries and competitor guests.
+Type: 9
+Rationale: The Commonwealth Games encourages attendance by the public, but must also fulfil an obligation to sponsors, officials and competitors by making a share of tickets available to all types of spectator.
+Originator: Thomas Shelby.
+Comments: [CC-002] Created and committed 01-FEB-2019.
+
+REQ-ID: DJT-001
+Description – The Product should allocate a number of tickets to each event
+Rationale – The product should determine a maximum allocation for each event so that ticket sales can be monitored for appropriate levels of sales to maintain a full stadium
+Originator - Polly Gray - responsible for domestic ticket sales for the XXII Commonwealth Games while
+Comments: [DJT-001] Created and committed 09th Feb 2019
+
+REQ-ID: TC-001
+Description: The software must be able to identify specific bookings using information provided by the user who made the booking
+Rationale: To allow a user to collect tickets or amend the booking.
+Originator: Polly Gray
+Comments: [TC-001] Created and committed 10-FEB-2019.
+
+REQ-ID: OH-002
+Description: The website should allow a customer to login with a personal combination of username and password.
+Rationale: Allowing customers to login with their individual username and password would enable the application to identify and verify the customer identity that initiated the ticket(s) return.
+Originator: Thomas Shelby.
+Comments: [OH-002] Created and committed 10th Feb 2019.
+
+REQ-ID: DR-001
+Description: The system shall meet not exceed the revenue target by more than 5%.
+Rationale: The system needs to make a profit but not to generate criticism.
+Originator: Polly Gray
+
+####################################################################################################################################################################################################################################

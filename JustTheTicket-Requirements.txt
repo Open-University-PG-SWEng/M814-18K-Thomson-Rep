@@ -1,4 +1,4 @@
-REQ-ID: CC-001.
+﻿REQ-ID: CC-001.
 Description: The system shall only allow a ticket refund if the sporting event associated with the ticket has not taken place yet. 
 Type: 9
 Rationale: Once a sporting event has taken place a customer cannot request a refund because the event is now in the past. 
@@ -40,13 +40,13 @@ REQ-ID: RB-001
 Description: The system shall search for the customer registration to identify the customer returning ticket
 Rationale: To check if the person intending to return the ticket is a registered customer and the same who made that ticket purchase
 Originator: Thomas Shelby
-Comments: [RB-001] Created and committed 09-FEB-2019.
+Comments: [RB-001] Created and committed 09-FEB-2019. Recommited to take scree shot for the solution document 15-FEB-2019.
 
 REQ-ID: RB-002
 Description: The system shall add the ticket to the reallocation list to be reallocated every 24 hrs
 Rationale: To make any seats that has now become available to be reallocated to those on the waiting list in a manageable and consistent manner
 Originator: Polly Gray
-Comments: [RB-002] Created and committed 09-FEB-2019.
+Comments: [RB-002] Created and committed 09-FEB-2019. Recommited to take scree shot for the solution document 15-FEB-2019.
 
 REQ-ID: TC-001
 Description: The software must be able to identify specific bookings using information provided by the user who made the booking

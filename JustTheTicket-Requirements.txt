@@ -1,20 +1,8 @@
-﻿REQ-ID: AF-001
-Description: The product shall check if the ticket is already expired
-Rationale: To avoid unrightful refund claims
-Originator: Customer
-Comments: [AF-001] Created and committed 11th Feb 2019.
-
-REQ-ID: AF-002
+﻿REQ-ID: AF-002
 Description: The product shall updates DMS (live ticket information database) about returned ticket statuses according to the decision of the “Ticket Review Team”.
 Rationale: To make returned tickets available again 
 Originator: Ticket Review Team
 Comments: [AF-002] Created and committed 11th Feb 2019.
-
-REQ-ID: AM-001
-Description: Find the tickets and ensure validity
-Rationale: to verify that the tickets haven’t already been returned, refunded, or reallocated.
-Originator: Polly Gray
-Comments: [AM-001] Created and committed 02-FEB-2019.
 
 REQ-ID: AM-002
 Description: Capture the reasons for customer return
@@ -22,22 +10,11 @@ Rationale: to monitor a potential pattern of fraud
 Originator: Polly Gray
 Comments: [AM-002] Created and committed 02-FEB-2019.
 
-REQ-ID: CC-001.
-Description: The system shall only allow a ticket refund if the sporting event associated with the ticket has not taken place yet. 
-Rationale: Once a sporting event has taken place a customer cannot request a refund because the event is now in the past. 
-Originator: Thomas Shelby.
-Comments: [CC-001] Created and committed 01-FEB-2019.
-
 REQ-ID: CC-002.
 Description: The system shall support ticket requests originating from the general public, sponsor companies, sports officials from Commonwealth countries and competitor guests. 
 Rationale: The Commonwealth Games encourages attendance by the public, but must also fulfil an obligation to sponsors, officials and competitors by making a share of tickets available to all types of spectator. 
 Originator: Thomas Shelby.
 Comments: [CC-002] Created and committed 01-FEB-2019.
-
-REQ-ID: CS-001
-Description: The system will ensure that the event for which the tickets are being returned is in the future.
-Rational: Refunds cannot be issued for events that are in the past.
-Originator: Polly Gray
 
 REQ-ID: CS-002
 Description: The system will ensure that tickets are returned to a reallocation pool, not back to the general inventory.
@@ -90,12 +67,6 @@ Rationale: To ensure that any black market activity is reduced or eliminated and
 Originator: Thomas Selby
 DJT-001
 
-REQ-IQ: LA-002
-Description: The system shall ensure that any returned tickets are allocated to a fair reallocation pool. 
-Rationale: To ensure that tickets are fairly reallocated to a transparent waiting list so that return reasons are tracked and that return patterns are identified in order to eliminate fraudulent activities.
-Originator: Polly Gray
-DJT-001
-
 REQ-ID: OH-001
 Description: The website should allow the customer to enter ticket number(s) to initiate a ticket return.
 Rationale: Entering the ticket numbers would allow the system to track down the related event and the customer who initially purchased the ticket(s). 
@@ -120,41 +91,11 @@ Rationale: As these tickets will be allocated via an automated process, the new 
 Originator: Polly Gray
 Comments [PC-002] Created and committed 13-FEB-2009
 
-REQ-ID: RB-001
-Description: The system shall search for the customer registration to identify the customer returning ticket
-Rationale: To check if the person intending to return the ticket is a registered customer and the same who made that ticket purchase
-Originator: Thomas Shelby
-Comments: [RB-001] Created and committed 09-FEB-2019. Recommited to take scree shot for the solution document 15-FEB-2019.
-
-REQ-ID: RB-002
-Description: The system shall add the ticket to the reallocation list to be reallocated every 24 hrs
-Rationale: To make any seats that has now become available to be reallocated to those on the waiting list in a manageable and consistent manner
-Originator: Polly Gray
-Comments: [RB-002] Created and committed 09-FEB-2019. Recommited to take scree shot for the solution document 15-FEB-2019.
-
 REQ-ID: SAB-001
 Locate Ticket purchased
 Description: The system will access copy of ticket stored.
 Rational	: To ensure the authenticity of returned ticket(s).
 Originator	: Thomas Selby
-
-REQ-ID: SAB-002
-Confirm customer is the returned ticket Owner.
-Description: The system will compare customer's identity to the accessed ticket customer,s identity.
-Rational	: To ensure decision to return is that of the original customer to avoid redudiation.
-Originator	: Thomas Selby
-
-REQ-ID: SS-001
-Description: The product shall allow the customer to specify a reason for return for each ticket to be returned.
-Rationale: The customer may return multiple tickets (for same event or different events) with each return having a different reason.
-Originator: Thomas Shelby
-Comments: [SS-001] Created and committed 12-FEB-2019.
-
-REQ-ID: SS-002
-Description: The product shall calculate the correct refund amount for returned ticket(s).
-Rationale: To avoid legal and reputational consequences, the customer must receive the correct refund based on the ticket(s) original purchase price despite potential variations in price since original purchase.
-Originator: Polly Gray
-Comments: [SS-002] Created and committed 12-FEB-2019.
 
 REQ-ID: TC-001
 Description: The software must be able to identify specific bookings using information provided by the user who made the booking

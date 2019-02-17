@@ -165,3 +165,6 @@ REQ-IQ: LA-002
 Description: The system shall ensure that any returned tickets are allocated to a fair reallocation pool. 
 Rationale: To ensure that tickets are fairly reallocated to a transparent waiting list so that return reasons are tracked and that return patterns are identified in order to eliminate fraudulent activities.
 Originator: Polly Gray
+
+
+This is a test RB-003

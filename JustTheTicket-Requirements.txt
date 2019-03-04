@@ -109,13 +109,13 @@ Originator: Polly Gary
 REQ-ID: SS-001
 Description: The product shall allow the customer to specify a reason for return for each ticket to be returned.
 Rationale: The customer may return multiple tickets (for same event or different events) with each return having a different reason.
-Originator: Thomas Shelby
+Originator: Thomas Shelby.
 Comments: [SS-001] Created and committed 12-FEB-2019.
 
 REQ-ID: SS-002
 Description: The product shall calculate the correct refund amount for returned ticket(s).
 Rationale: To avoid legal and reputational consequences, the customer must receive the correct refund based on the ticket(s) original purchase price despite potential variations in price since original purchase.
-Originator: Polly Gray
+Originator: Polly Gray.
 Comments: [SS-002] Created and committed 12-FEB-2019.
 
 REQ-ID: PC-001

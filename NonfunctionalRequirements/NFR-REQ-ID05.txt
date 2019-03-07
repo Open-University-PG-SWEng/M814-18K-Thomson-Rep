@@ -1,0 +1,7 @@
+REQ-ID: NFR-05-01
+Description: Tickets are written to the reallocation pool without delay.
+Type: 12 (Performance)
+Rationale: A delay in processing the return of tickets will have a negative impact on customer satisfaction. It may also cause the customer to think that the transaction was unsuccessful and abandon / restart the process.
+Fit Criterion: 95% of ticket writes to the reallocation pool must complete within 2 seconds.
+Originator: Polly Gray
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.

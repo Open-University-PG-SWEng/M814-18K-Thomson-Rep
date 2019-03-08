@@ -1,0 +1,7 @@
+REQ-ID:		15
+Type:		11e
+Description:	The text in the login window shall be provided in English, French, Spanish, German and Italian.
+Rationale:	Non-English speakers should be able to login with no issues. The language in the login section should be written in the main spoken languages.
+Fit Criterion:	100% of the times, the text in the login window shall be displayed in the main spoken languages (English, French, Spanish, German and Italian).
+Originator:	Thomas Shelby
+Comments: 	Created 08.03.19

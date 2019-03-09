@@ -1,0 +1,7 @@
+REQ-ID: 11
+Description: The system shall always retreive the ticket to be returned quickly.
+Type: 12
+Rationale: There will be a high level of demand, in the order of many tens of thousands per hour, and the system must operate without significant degradation.
+Fit Criterion: The system shall average a retrieval time of under a tenth of a second when there are 30 requests per second.
+Originator: Thomas Shelby
+Comments:

@@ -7,3 +7,4 @@ Originator:	Thomas Shelby
 Comments: 	Created 08.03.19
 
 [OH] Should it be that all the visited pages are in the selected language (not only the login window)?
+[DJT] There is no mention of language selection, just that the login section should be in all languages. I agree that there should be a language selection using a flag and internationalised text options, which changes the page language

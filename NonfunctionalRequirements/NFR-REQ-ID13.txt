@@ -9,3 +9,4 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 [OH] Is one minute not excessive in order to retrieve a booking? 
 I assume the user will enter a booking number in a text field, is the one minute for the system to fetch the booking or for the entire process from login etc.?
 If it is for the entire process, how is this going to be measured?
+[DJT] Agree one minute seems long, in which case it must be for the whole process. Would suggest benchmarking the time via user testing, but since a time needs to be picked it may be arbitrary

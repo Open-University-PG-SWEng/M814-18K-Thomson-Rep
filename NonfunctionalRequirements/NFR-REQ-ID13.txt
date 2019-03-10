@@ -5,3 +5,7 @@ Rationale: A difficult process is likely to cause a great deal of user dissatisf
 Fit Criterion: Without any prior preparation, 75% of users should be able to access their booking within one minute of the initial contact with the booking system.
 Originator: Tristan Cockerill
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+
+[OH] Is one minute not excessive in order to retrieve a booking? 
+I assume the user will enter a booking number in a text field, is the one minute for the system to fetch the booking or for the entire process from login etc.?
+If it is for the entire process, how is this going to be measured?

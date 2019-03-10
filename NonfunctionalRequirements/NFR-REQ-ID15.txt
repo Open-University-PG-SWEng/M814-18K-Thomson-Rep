@@ -5,3 +5,5 @@ Rationale:	Non-English speakers should be able to login with no issues. The lang
 Fit Criterion:	100% of the times, the text in the login window shall be displayed in the main spoken languages (English, French, Spanish, German and Italian).
 Originator:	Thomas Shelby
 Comments: 	Created 08.03.19
+
+[OH] Should it be that all the visited pages are in the selected language (not only the login window)?

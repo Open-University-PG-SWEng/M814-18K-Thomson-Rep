@@ -1,0 +1,7 @@
+REQ-ID: 13
+Description: Accessing the booking must be a simple process for the user
+Type: Usability
+Rationale: A difficult process is likely to cause a great deal of user dissatisfaction.
+Fit Criterion: Without any prior preparation, 75% of users should be able to access their booking within one minute of the initial contact with the booking system.
+Originator: Tristan Cockerill
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.

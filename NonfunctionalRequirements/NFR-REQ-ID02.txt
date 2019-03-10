@@ -1,0 +1,7 @@
+REQ-ID: AF-02
+Description:The product shall communicate with external DMS in a manner that prevent unauthorised intruders from tampering the data communication between them.
+Type: 15
+Rationale:To protect personal data and provide data security
+Fit Criterion:The product must comply with ISO/IEC 27001 and 27002 standards.
+Originator:Alexander Fry
+Comments: [AF-02] Created and committed 02-MARC-2019

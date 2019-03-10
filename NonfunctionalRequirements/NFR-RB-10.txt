@@ -1,0 +1,7 @@
+REQ-ID: RB-10
+Description: The system will ensure that the ticket/s are returned to the original buyer.
+Type: 15
+Rationale: To avoid the danger of black marketing and ticket touts handling ticket sales whilst providing a fair chance to those customers who wants or needs to return tickets
+Fit Criterion: The customer will be identified in the database and the ticket/s id matched with their purchase history
+Originator: Thomas Shelby
+Comments: [RB-10] Created and committed 04-MAR-2019.

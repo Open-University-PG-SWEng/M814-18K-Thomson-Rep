@@ -1,0 +1,18 @@
+REQ-ID: NFR ID 03 (AM-001)
+
+Description: The system should only accept tickets for return if they are owned by the authorised user
+
+Type: 15 Security
+
+Rationale: 
+To prevent refunds to an incorrect user, returned tickets must belong to the authorised user.
+Tickets have an owner recorded in the system.
+An authorised user has authenticated their identity to the system. 
+
+Fit Criterion:
+0% of tickets should be returned and refunded to an incorrect user. 
+
+
+Originator: Polly Gray
+
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.

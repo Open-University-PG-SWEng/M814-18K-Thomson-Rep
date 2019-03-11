@@ -1,4 +1,4 @@
-REQ-ID:		15
+REQ-ID:			15
 Type:		11e
 Description:	The text in the login window shall be provided in English, French, Spanish, German and Italian.
 Rationale:	Non-English speakers should be able to login with no issues. The language in the login section should be written in the main spoken languages.
@@ -8,3 +8,4 @@ Comments: 	Created 08.03.19
 
 [OH] Should it be that all the visited pages are in the selected language (not only the login window)?
 [DJT] There is no mention of language selection, just that the login section should be in all languages. I agree that there should be a language selection using a flag and internationalised text options, which changes the page language
+[JF] What OH is recomending, another requirement should take care of it. As the system, previous login, doesn't have any knowledge about the customer preferences, this non-functional requirement should be considered as a requirement by itself.

@@ -5,3 +5,4 @@ Rationale: In order to allow fair access to tickets, maintenance of the system s
 Fit Criterion: It must be possible to deploy updates and perform routine maintenance to the system without the need to take the service offline.
 Originator: Peter Colley
 Comments: [PC] Created and committed 11 March 2019
+Comments: [RB] The fit criterion seems like a requirement itself as it does not clearly state as to how this will be achieved thus has no testing measures available. Perhaps adding that any changes will take effect in next login session and will not disrupt any current session of the user, will make it clear for the developers.

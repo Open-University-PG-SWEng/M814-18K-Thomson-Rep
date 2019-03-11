@@ -5,3 +5,4 @@ Rationale: In order for JustTheTicket to comply with GDPR and PCI-DSS regulation
 Fit Criterion: The product must comply with both GDPR and PCI-DSS legislation upon launch. Any amendments made to the product must remain compliant for the products entire lifecycle. 
 Originator: Chris Cox [CC].
 Comments: [CC] Created: 10-MAR-2019
+Comments: [RB] Very pertinent NFR conforming to the current standards and practices of data handling.

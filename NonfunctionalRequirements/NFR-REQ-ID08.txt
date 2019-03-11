@@ -5,3 +5,5 @@ Rationale: The website must comply with the accessibility standards, specificall
 Fit Criterion: Users partially sighted, must be able to select a concessionary price within 3 seconds of coming it across for the first time.
 Originator: Olivier Hess.
 Comments: [M814-OH] Created on 10/03/2019.
+
+[CS] Good use of the WCAG guidelines. You might want to add a percentage of the number of users to the fit criterion though, it's probably not feasible for 100% of users to be able to select the price within the time specified.

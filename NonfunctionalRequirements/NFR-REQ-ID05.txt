@@ -5,3 +5,4 @@ Rationale: A delay in processing the return of tickets will have a negative impa
 Fit Criterion: 95% of ticket writes to the reallocation pool must complete within 2 seconds.
 Originator: Polly Gray
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+Comments: [RB] Although the fit criterion quantifies time needed to deal with the 95% of the tickets that’s added to reallocation pool but does not mention any range for how the rest 5% is dealt thus making the performance measurement weak.

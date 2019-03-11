@@ -1,0 +1,7 @@
+REQ-ID: NFR-09
+Description: System shall be available 24 hours per day
+Type: 12d
+Rationale: In order to allow fair access to tickets, maintenance of the system should not cause down time. Scheduling down-time outside of standard office hours would affect international customers disproportionately.
+Fit Criterion: It must be possible to deploy updates and perform routine maintenance to the system without the need to take the service offline.
+Originator: Peter Colley
+Comments: [PC] Created and committed 11 March 2019

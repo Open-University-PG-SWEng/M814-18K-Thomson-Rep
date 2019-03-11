@@ -2,7 +2,7 @@ REQ-ID: AF-02
 Description:The product shall communicate with external DMS in a manner that prevent unauthorised intruders from tampering the data communication between them.
 Type: 15
 Rationale:To protect personal data and provide data security
-Fit Criterion:The product must comply with ISO/IEC 27001 and 27002 standards.
+Fit Criterion:The product must comply with ISO/IEC 27001 A.13.2.1 Information Transfer Policies & Procedures
 Originator:Alexander Fry
 Comments: [AF-02] Created and committed 02-MARC-2019
 [CC] Good NFR. ISO-27001 and 27002 do not explicitly state what type of encryption should be used, so this could be added in along with considerations for encryption at rest as well as on the wire. 

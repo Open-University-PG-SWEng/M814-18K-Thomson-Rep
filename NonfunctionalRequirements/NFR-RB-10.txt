@@ -5,3 +5,5 @@ Rationale: To avoid the danger of black marketing and ticket touts handling tick
 Fit Criterion: The customer will be identified in the database and the ticket/s id matched with their purchase history
 Originator: Thomas Shelby
 Comments: [RB-10] Created and committed 04-MAR-2019.
+
+[TC] The fit criterion sounds more like a set of instructions than a measure of success.

@@ -5,3 +5,5 @@ Rationale: To ensure Customer, Commonwealth Games organisation or any third part
 Fit Criterion: The product complies with appropriate industry and company security policies for maintaining integrity of data.
 Originator: Simonas Stilius
 Comments: [SS] Created 12-MAR-2019
+
+[TC] The fit criterion should probably name the specific set of policies it needs to fit with to avoid confusion.

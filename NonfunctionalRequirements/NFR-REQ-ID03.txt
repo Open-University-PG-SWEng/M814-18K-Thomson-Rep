@@ -17,4 +17,5 @@ Originator: Polly Gray
 
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 
-[TC] Given the fit criterion is it either does it or doesn't it sounds more like a functional requirement. 
+[TC] Given the fit criterion is it either does it or doesn't it sounds more like a functional requirement.
+[DJT] Fit criterion is not boolean. Tickets returned correctly, however, is. Overall failure is > 0% of purchases incorrectly refunded.

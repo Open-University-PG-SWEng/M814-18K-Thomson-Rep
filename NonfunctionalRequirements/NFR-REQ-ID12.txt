@@ -1,0 +1,7 @@
+REQ-ID: 12
+Description:The product shall ensure that the stored purchase value data for the original ticket order(s) is protected from manipulation.
+Type: 15b (Security - Integrity)
+Rationale: To ensure customer, Commonwealth Games organisation or any third party cannot take financial advantage or cause financial harm through manipulated/incorrect refund amount.
+Fit Criterion: The product complies with appropriate industry and company security policies for maintaining integrity of data.
+Originator: Simonas Stilius
+Comments: [SS] Created 12th March 2019

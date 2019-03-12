@@ -6,3 +6,5 @@ Fit Criterion: It must be possible to deploy updates and perform routine mainten
 Originator: Peter Colley
 Comments: [PC] Created and committed 11 March 2019
 Comments: [RB] The fit criterion seems like a requirement itself as it does not clearly state as to how this will be achieved thus has no testing measures available. Perhaps adding that any changes will take effect in next login session and will not disrupt any current session of the user, will make it clear for the developers.
+
+[CS] Additionally, 100% uptime is probably not possible, with data centres typically offering 99.9% or 99.99% uptime. Perhaps this could be a useful measure to include in the fit criterion.

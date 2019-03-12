@@ -7,3 +7,4 @@ Originator: Simonas Stilius
 Comments: [SS] Created 12-MAR-2019
 
 [TC] The fit criterion should probably name the specific set of policies it needs to fit with to avoid confusion.
+[DJT] PCI-DSS security scan includes SQL injection, which may be a relevant vector

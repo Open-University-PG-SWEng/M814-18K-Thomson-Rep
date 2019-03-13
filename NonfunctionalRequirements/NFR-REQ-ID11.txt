@@ -8,3 +8,4 @@ Comments:
 [DJT] I wonder what would constitute failure? Is there a threshold over which failure is triggered or is it just anything over 1/10th of a second? Would suggest user satisfaction would tolerate higher
 [DJT] 30 requests per second is 108,000 per hour. This seems high when interview with Thomas suggested 10,000's per hour.
 [CS] 108,000 per hour is high, but this would presumably be peak usage and may only last for a couple of minutes, when tickets for a high-profile event go on sale, for example. 30 requests per second is probably not unreasonable.
+[PC] would it be more appropriate to state the maximum average retrieval time up to a certain level of requests per hour? This may be more useful to developers when designing auto scaling as it will guarantee performance at all levels (to an agreed level).

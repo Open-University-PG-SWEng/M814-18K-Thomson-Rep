@@ -2,9 +2,10 @@ REQ-ID: NFR-09
 Description: System shall be available 24 hours per day
 Type: 12d
 Rationale: In order to allow fair access to tickets, maintenance of the system should not cause down time. Scheduling down-time outside of standard office hours would affect international customers disproportionately.
-Fit Criterion: It must be possible to deploy updates and perform routine maintenance to the system without the need to take the service offline.
+Fit Criterion: The deployment of routine maintenance patches should not require more than 5 minutes of system down time per patch.
 Originator: Peter Colley
 Comments: [PC] Created and committed 11 March 2019
 Comments: [RB] The fit criterion seems like a requirement itself as it does not clearly state as to how this will be achieved thus has no testing measures available. Perhaps adding that any changes will take effect in next login session and will not disrupt any current session of the user, will make it clear for the developers.
 
 [CS] Additionally, 100% uptime is probably not possible, with data centres typically offering 99.9% or 99.99% uptime. Perhaps this could be a useful measure to include in the fit criterion.
+[PC] Updating fit criterion to be more measurable

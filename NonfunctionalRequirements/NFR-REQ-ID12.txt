@@ -8,4 +8,4 @@ Comments: [SS] Created 12-MAR-2019
 
 [TC] The fit criterion should probably name the specific set of policies it needs to fit with to avoid confusion.
 [DJT] PCI-DSS security scan includes SQL injection, which may be a relevant vector
-[PC] Not sure about PCI-DSS as this relates to the handling of payment cards. The case study in TMA01 stated that payments will be handled by an existing system. ISO/IEC 27001 is the standards for infromation security standard so compliance with this seems like it could satisfy the requirement.
+[PC] Not sure about PCI-DSS as this relates to the handling of payment cards. The case study in TMA01 stated that payments will be handled by an existing system. ISO/IEC 27001 is the standard for infromation security standard so compliance with this seems like it could satisfy the requirement.

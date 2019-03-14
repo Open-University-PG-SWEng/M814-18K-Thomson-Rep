@@ -6,3 +6,8 @@ Fit Criterion: The product must comply with both GDPR and PCI-DSS legislation up
 Originator: Chris Cox [CC].
 Comments: [CC] Created: 10-MAR-2019
 Comments: [RB] Very pertinent NFR conforming to the current standards and practices of data handling.
+Comments: [SS] 	This NFR is very important so the references to specific standards is great.
+		To me the second part of the rationale is a repeat of the description.
+		An alternative rationale may be to go one level higher and consider the consequences of not being compliant.
+		The fit criterion is well written as it removes the ambiguity of when the product must be compliant.
+		

@@ -7,4 +7,8 @@ Originator: Thomas Shelby
 Comments: [RB-10] Created and committed 04-MAR-2019.
 
 [TC] The fit criterion sounds more like a set of instructions than a measure of success.
-[SS] The following comments assume that the ticket 'refund' is returned, not the ticket itself - perhaps this should be clarified/corrected. The description does seem to fit a security NFR, specifically regarding access to requesting the refund. I would suggest a revision of the description based on the technique outlined in MRP of adding "...and no more" to description and seeing what effect this has. Similarly for the fit criterion, it could be additionally considered whether this requirement is met through whether or not someone other than the original customer is able to receive the refund and perhaps there is some relevant policy/legistation around this.
+[SS] 	The following comments assume that the ticket 'refund' is returned, not the ticket itself - perhaps this should be clarified/corrected.
+	The description does seem to fit a security NFR, specifically regarding access to requesting the refund.
+	I would suggest a revision of the description based on the technique outlined in MRP of adding "...and no more" to description and seeing what effect this has.
+	Similarly for the fit criterion, it could be additionally considered whether this requirement is met through whether or not someone other than the
+		original customer is able to receive the refund and perhaps there is some relevant policy/legistation around this.

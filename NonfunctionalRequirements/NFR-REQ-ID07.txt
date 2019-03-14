@@ -5,3 +5,10 @@ Rationale: To maximise accessibility so that a minimum of 95% of customers can r
 Fit Criterion: 95% of users can initialise a ticket return within 2 minutes of accessing the system.
 Originator: David Ralph
 Comments: [M814-DR] Created on 12/03/2019.
+Comments: [SS]  My understanding is the type refers to the type from the MRP NFR categories.
+		The rationale as it is currently written has elements of a fit criterion - in my opinion the first part could be the complete rationale.
+		I would still consider the product a failure if 5% of people were not able to return unwanted tickets due to accessibility.
+		A suggestion for amendment to the fit criterion may be that X% of users are able to return the ticket without assistance from someone else.
+		The use of a time criterion is good and 2 minutes seems like a reasonable timeframe.
+
+

@@ -2,8 +2,8 @@ REQ-ID: NFR-05-01
 Description: Tickets are written to the reallocation pool without delay.
 Type: 12 (Performance)
 Rationale: A delay in processing the return of tickets will have a negative impact on customer satisfaction. It may also cause the customer to think that the transaction was unsuccessful and abandon / restart the process.
-Fit Criterion: 95% of ticket writes to the reallocation pool must complete within 2 seconds.
+Fit Criterion: 95% of ticket writes to the reallocation pool must complete within 2 seconds. The remaining 5% must complete within 10 seconds.
 Originator: Polly Gray
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [AF] Good NFR. Not offering solution, or technical details, but include good set of criterions to measure the fitness requirements. 
-Comments: [RB] Although the fit criterion quantifies time needed to deal with the 95% of the tickets that’s added to reallocation pool but does not mention any range for how the rest 5% is dealt thus making the performance measurement weak.
+Comments: [RB] Although the fit criterion quantifies time needed to deal with the 95% of the tickets thatï¿½s added to reallocation pool but does not mention any range for how the rest 5% is dealt thus making the performance measurement weak.

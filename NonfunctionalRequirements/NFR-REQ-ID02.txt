@@ -7,3 +7,4 @@ Originator:Alexander Fry
 Comments: [AF-02] Created and committed 02-MARC-2019
 [CC] Good NFR. ISO-27001 and 27002 do not explicitly state what type of encryption should be used, so this could be added in along with considerations for encryption at rest as well as on the wire.
 [DR] I like this NFR. We make the assumption that they have ISO /IEC 27001 compliant Policies & Procedures but it makes sense to set a bench mark and aim to achieve it.
+[SAB] Good Fit Criterion, it clearifies what the system needs by referenceing the ISO policies. I would have preferred security mentioned in the Rationale be used in the fit criterion i.e. "Information security polices"

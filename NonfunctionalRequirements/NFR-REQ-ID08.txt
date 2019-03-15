@@ -8,3 +8,7 @@ Comments: [M814-OH] Created on 10/03/2019.
 
 [CS] Good use of the WCAG guidelines. You might want to add a percentage of the number of users to the fit criterion though, it's probably not feasible for 100% of users to be able to select the price within the time specified.
 [AF] Good use of the standard, however I think that the 3s is a bit short for partially sighted person. The Rationale is looks more like a Fit Criterion in you NFR. Also, If you refer to the WCAG standard, then the Fit Criterion's measurable criterion should be selected from the refered standard. I saw no such criterion in the standard (i.e. 3s), so it may need clarification. 
+[SAB] 
+- I undertand the phrase "within 3 seconds of coming it across for"
+may be a typo, but it needs clearify so as not to assume.
+- Maybe The Fit Criterion should have been percentages rather than time since you are referring to a group of users. i.e. "98% of partially sighted users will select a concessionary price without assistance". 

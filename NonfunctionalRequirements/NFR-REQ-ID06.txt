@@ -1,0 +1,9 @@
+NFR-REQ-ID: 06
+Description: The system shall take minimum time to confirm customer as ticket owner.
+Type: 12 (Performance).
+Rationale: It is important to validate customer in a quicker time frame showing responsiveness of the system.
+Fit Criterion: The response time for customer validation shall be less then 5 secs.
+
+Originator: Thomas Selby
+
+Comments:

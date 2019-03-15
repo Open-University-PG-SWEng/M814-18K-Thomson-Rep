@@ -2,7 +2,7 @@ REQ-ID: 12
 Description: The product shall ensure that the stored data on purchased ticket order(s) value is protected from manipulation.
 Type: 15b (Security - Integrity)
 Rationale: To ensure Customer, Commonwealth Games organisation or any third party cannot take financial advantage or cause financial harm through manipulated/incorrect refund.amount.
-Fit Criterion: The product complies with appropriate industry and company security policies for maintaining integrity of data.
+Fit Criterion: An ISO/IEC 27001 certified information security management system (ISMS) is designed and implemented for the product by the product release date and maintains certification for the lifespan of the product through annual audits. 
 Originator: Simonas Stilius
 Comments: [SS] Created 12-MAR-2019
 

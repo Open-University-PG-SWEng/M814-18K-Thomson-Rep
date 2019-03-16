@@ -1,5 +1,5 @@
 REQ-ID: RB-10
-Description: The system will ensure that the ticket/s are returned to the original buyer only.
+Description: The system will ensure that the ticket/s are refunded to the original buyer only.
 Type: 15
 Rationale: To avoid the danger of black marketing and ticket touts handling ticket sales whilst providing a fair chance to those customers who wants or needs to return tickets
 Fit Criterion: The customer will be identified in the database and the ticket/s id matched with their purchase history for every return request as per organisation return policy.

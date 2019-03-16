@@ -18,3 +18,4 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 [TC] Given the fit criterion is it either does it or doesn't it sounds more like a functional requirement.
 [DJT] Fit criterion is not boolean. Tickets returned correctly, however, is. Overall failure is > 0% of purchases incorrectly refunded.
 [DJT] NFR changed as it is now a better fit for the requirement AM-001: Find the tickets and ensure validity
+[DR] I have difficulty identifying what intuitive is / means. I find it difficult to quantify and my views will probably be different to somebody elses'.

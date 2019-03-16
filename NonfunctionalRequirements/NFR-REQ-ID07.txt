@@ -10,5 +10,9 @@ Comments: [SS]  My understanding is the type refers to the type from the MRP NFR
 		I would still consider the product a failure if 5% of people were not able to return unwanted tickets due to accessibility.
 		A suggestion for amendment to the fit criterion may be that X% of users are able to return the ticket without assistance from someone else.
 		The use of a time criterion is good and 2 minutes seems like a reasonable timeframe.
+Comments: [SAB] 
+Initiating a process in 2 minutes is too long a time frame, it might invalidate useability or performance. If it's just to intialise, i suggest max time of 5sec. 
+i.e 98% of users will initialise a ticket return within 5sec.
 
+The issue is, it's not clear what initialising is, is it just to start the process of ticket return? or the complete process of ticket return?.
 

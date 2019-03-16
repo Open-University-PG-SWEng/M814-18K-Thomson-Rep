@@ -21,3 +21,8 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 [DR] I have difficulty identifying what intuitive is / means. I find it difficult to quantify and my views will probably be different to somebody elses'.
 [DJT] Good point. The description is about a quality of the system. The rationale and fit criterion explain how it is to be measured and hopefully remove ambiguity. The actual values may be subject to adjustment from user testing and benchmarking.
 [AM] My biggest issue with this isn't the time or the number of actions which seem fine, it is not clear where the starting point is.  Is there another requirement for the user to log in and have the user be presented with an account screen as opposed to logging in and going to the search?
+[DJT] Another good point. In terms of the UI/UX I would suggest there are other flows than log in > return ticket. 
+In the fit criterion it states the starting point for this NFR is 'logging in' and what is being measured is 
+the ease of use of 'checking ticket validity' during the 'return tickets process' (from the original requirement). 
+As you suggest, other requirements and NFR would outline other user flows. 
+I don't hope to outline the entire or even an extended user journey in this NFR, which might imply solution elements.

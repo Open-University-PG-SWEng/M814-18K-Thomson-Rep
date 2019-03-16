@@ -1,8 +1,8 @@
 REQ-ID: NFR-07
 Description: Access to the system to initiate a ticket return shall comply with WCAG 2.1 accessibility guidelines
-Type: Accessibility Standards
-Rationale: To maximise accessibility so that a minimum of 95% of customers can return unrequired tickets.
-Fit Criterion: 95% of users can initialise a ticket return within 2 minutes of accessing the system.
+Type: 11 (Usability and Humanity)
+Rationale: To maximise accessibility so that a minimum of 95% of users can complete the process to return unrequired tickets unaided.
+Fit Criterion: 95% of users can initialise the process to return a ticket within 2 minutes of accessing the system.
 Originator: David Ralph
 Comments: [M814-DR] Created on 12/03/2019.
 Comments: [SS]  My understanding is the type refers to the type from the MRP NFR categories.
@@ -15,4 +15,5 @@ Initiating a process in 2 minutes is too long a time frame, it might invalidate 
 i.e 98% of users will initialise a ticket return within 5sec.
 
 The issue is, it's not clear what initialising is, is it just to start the process of ticket return? or the complete process of ticket return?.
+Comment [DR]  Amendments made to Type and rationale wording.
 

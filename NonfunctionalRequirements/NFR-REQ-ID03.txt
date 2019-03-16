@@ -1,16 +1,14 @@
 REQ-ID: NFR ID 03 (AM-001)
 
-Description: The system should only accept tickets for return if they are owned by the authorised user
+Description: The system for checking ticket validity should be 'intuitive'
 
-Type: 15 Security
+Type: 11 Usability and Humanity
 
 Rationale: 
-To prevent refunds to an incorrect user, returned tickets must belong to the authorised user.
-Tickets have an owner recorded in the system.
-An authorised user has authenticated their identity to the system. 
+Users must find the system easy to use, otherwise they will not use it.
 
 Fit Criterion:
-0% of tickets should be returned and refunded to an incorrect user. 
+Users must be able to validate their ticket for return within 10 seconds and 3 actions and after logging in.  
 
 
 Originator: Polly Gray
@@ -19,3 +17,4 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 
 [TC] Given the fit criterion is it either does it or doesn't it sounds more like a functional requirement.
 [DJT] Fit criterion is not boolean. Tickets returned correctly, however, is. Overall failure is > 0% of purchases incorrectly refunded.
+[DJT] NFR changed as it is now a better fit for the requirement AM-001: Find the tickets and ensure validity

@@ -6,4 +6,6 @@ Fit Criterion: The response time for customer validation shall be less than 5 se
 
 Originator: Thomas Selby
 
-Comments:[DR] Should the rationale say quick or quicker? If quicker, quicker than what? 5 Seconds as a validation time sounds fair to me. Do we need to mention (hypothetically) what services would be delayed?
+Comments:
+[DR] Should the rationale say quick or quicker? If quicker, quicker than what? 5 Seconds as a validation time sounds fair to me. Do we need to mention (hypothetically) what services would be delayed?
+[AM] Why was 5 seconds selected as opposed to 4 seconds?  Where did this number come from?

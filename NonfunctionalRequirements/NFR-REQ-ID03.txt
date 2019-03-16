@@ -20,3 +20,4 @@ Comments: [M814-ModuleChair] Add comments below, making sure to include your ini
 [DJT] NFR changed as it is now a better fit for the requirement AM-001: Find the tickets and ensure validity
 [DR] I have difficulty identifying what intuitive is / means. I find it difficult to quantify and my views will probably be different to somebody elses'.
 [DJT] Good point. The description is about a quality of the system. The rationale and fit criterion explain how it is to be measured and hopefully remove ambiguity. The actual values may be subject to adjustment from user testing and benchmarking.
+[AM] My biggest issue with this isn't the time or the number of actions which seem fine, it is not clear where the starting point is.  Is there another requirement for the user to log in and have the user be presented with an account screen as opposed to logging in and going to the search?

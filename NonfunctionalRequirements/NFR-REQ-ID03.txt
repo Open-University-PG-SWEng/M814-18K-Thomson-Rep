@@ -8,7 +8,7 @@ Rationale:
 Users must find the system easy to use, otherwise they will not use it.
 
 Fit Criterion:
-Users must be able to validate their ticket for return within 10 seconds and 3 actions and after logging in.  
+90% of users must be able to validate their ticket for return within 10 seconds and 3 actions and after logging in.  
 
 
 Originator: Polly Gray

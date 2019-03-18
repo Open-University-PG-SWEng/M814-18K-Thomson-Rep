@@ -1,7 +1,7 @@
 REQ-ID: 01
 Description: All personal and purchase data must be stored, secured and transmitted in compliance with both GDPR and PCI-DSS legislation. 
 Type: 15 (Security).
-Rationale: In order for JustTheTicket to comply with GDPR and PCI-DSS regulations, any PII (Personally Identifiable Informaton) and purchase related information must be stored and handled in manner compliant with both sets of legislation. 
+Rationale: JustTheTicket must be compliant with GDPR and PCI-DSS regulations in order to mitigate the risk of any legal, compensatory or loss of reputation problems in future.
 Fit Criterion: The product must comply with both GDPR and PCI-DSS legislation upon launch. Any amendments made to the product must remain compliant for the products entire lifecycle. 
 Originator: Chris Cox [CC].
 Comments: [CC] Created: 10-MAR-2019

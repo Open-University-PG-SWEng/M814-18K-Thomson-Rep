@@ -1,7 +1,7 @@
 NFR-REQ-ID: 06
 Description: The system shall take a minimum time to confirm customer as ticket owner.
 Type: 12 (Performance).
-Rationale: It is important to validate customer in a quicker time frame to ensure faster processing time. Avoiding service delays.
+Rationale: It is important to validate customer in a quick time frame to ensure faster processing time.
 Fit Criterion: The response time for customer validation shall be less than 5 secs.
 
 Originator: Thomas Selby
@@ -9,3 +9,7 @@ Originator: Thomas Selby
 Comments:
 [DR] Should the rationale say quick or quicker? If quicker, quicker than what? 5 Seconds as a validation time sounds fair to me. Do we need to mention (hypothetically) what services would be delayed?
 [AM] Why was 5 seconds selected as opposed to 4 seconds?  Where did this number come from?
+Comments: Revised NFR
+@[DR] Rationale rectified to quick and reference to service delays removed.
+@[AM] less 5 secs gives a range of performance i.e. between 1 and 4.
+@[AM] 5 secs is more identifiably time frame than 4secs and an adequate 	response time tolerate in waiting.   

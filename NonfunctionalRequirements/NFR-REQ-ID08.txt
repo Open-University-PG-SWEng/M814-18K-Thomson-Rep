@@ -2,7 +2,7 @@ REQ-ID: NFR-08
 Description: The product shall allow partially sighted users to select a concessionary price.
 Type: Accessibility requirements.
 Rationale: The website must comply with the accessibility standards, specifically the international WCAG 2.1 AA accessibility standard.
-Fit Criterion: Users partially sighted, must be able to select a concessionary price within 3 seconds of coming it across for the first time.
+Fit Criterion: 80% of users partially sighted, must be able to select a concessionary price when coming it across for the first time, without any assistance.
 Originator: Olivier Hess.
 Comments: [M814-OH] Created on 10/03/2019.
 

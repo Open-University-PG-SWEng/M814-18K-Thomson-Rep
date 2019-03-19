@@ -12,5 +12,5 @@ Comments:
 
 Comments: Revised NFR
 @[DR] Rationale rectified to quick and reference to service delays removed.
-@[AM] less 5 secs gives a range of performance i.e. between 1 and 4.
-@[AM] 5 secs is more identifiably time frame than 4secs and an adequate 	response time tolerate in waiting.   
+@[AM] less 5secs gives a range of performance i.e. between 1 and 4.
+@[AM] 5secs is a more identifiably time frame than 4secs and also an adequate response time to tolerate.   

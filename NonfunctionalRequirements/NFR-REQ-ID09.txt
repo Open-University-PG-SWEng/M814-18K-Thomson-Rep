@@ -9,3 +9,4 @@ Comments: [RB] The fit criterion seems like a requirement itself as it does not 
 
 [CS] Additionally, 100% uptime is probably not possible, with data centres typically offering 99.9% or 99.99% uptime. Perhaps this could be a useful measure to include in the fit criterion.
 [PC] Updating fit criterion to be more measurable
+[LA] How many patches are there estimated to be per month/week? This would surely impact the overall availability? 

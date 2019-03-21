@@ -8,3 +8,4 @@ Comments:
 [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [LA] Created and committed 21 March 2019
 [CS] I would question what circumstances would not be able to be validated by the system. If there is a valid reason for a ticket to not be automatically validated, could you really specify a percentage that would fit this? I think that in this case, it might be reasonable to say that 100% of ticket returns must be validated by the system.
+[RB] I partly agree with CS i.e. 100% of the tickets should be validated, however for the developers a clear criterion would be that a drop down with the list of return reason stated in the organisation policy for customer to select plus the option of choosing "other" and typing the reason in a textbox if the customer reson is not listed. These types reason would them need to be manually validated(ofcourse you need to paraphrase it to act as Fit Criterion)

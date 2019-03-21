@@ -11,3 +11,4 @@ I assume the user will enter a booking number in a text field, is the one minute
 If it is for the entire process, how is this going to be measured?
 [DJT] Agree one minute seems long, in which case it must be for the whole process. Would suggest benchmarking the time via user testing, but since a time needs to be picked it may be arbitrary
 [JF] I agree with DJT. It can be difficult to benchmark this fit criterion. I would suggest another type of measurements like a number of clicks or steps. If there is the possibility for user testing time would also be good.
+[LA] Since the requirement talks about simplicity/ease and usability, the fit criterion measured in time does not make sense. My suggestion would be to make it the average number of clicks required to perform any user functionality. Typically, this is around 3 clicks to do anything. For example, clicking the login button, then click menu and lastly sub-menu item to actually perform the action.

@@ -1,0 +1,9 @@
+REQ-ID: NFR-REQ-ID04
+Description: The system must ensure the accuracy of all ticket return reasons captured.
+Type: 12 (Performance)
+Rationale: To ensure accuracy of data and to prevent fraudulent activity, the system should not allow a ticket to be returned if it is against the organisation's return policy.
+Fit Criterion: 99% of all return reasons must be validated by the system, the remaining 1% should allow for manual validation performed by a user within 24 hours.
+Originator: Polly Gray
+Comments:
+[M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+[LA] Created and committed 21 March 2019

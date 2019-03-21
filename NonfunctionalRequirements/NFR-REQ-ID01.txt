@@ -10,4 +10,5 @@ Comments: [SS] 	This NFR is very important so the references to specific standar
 		To me the second part of the rationale is a repeat of the description.
 		An alternative rationale may be to go one level higher and consider the consequences of not being compliant.
 		The fit criterion is well written as it removes the ambiguity of when the product must be compliant.
+	  [LA] Stored, secured and transmission (transactional/"in-flight") of the data is covered, but what about what are 		   about retrieval of the data, such as when a system report is drawn up?
 		

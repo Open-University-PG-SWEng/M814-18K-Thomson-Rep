@@ -1,8 +1,8 @@
 REQ-ID: NFR-REQ-ID04
 Description: The system must ensure the accuracy of all ticket return reasons captured.
-Type: 12 (Performance)
+Type: 15 (Security)
 Rationale: To ensure accuracy of data and to prevent fraudulent activity, the system should not allow a ticket to be returned if it is against the organisation's return policy.
-Fit Criterion: 99% of all return reasons must be validated by the system, the remaining 1% should allow for manual validation performed by a user within 24 hours.
+Fit Criterion: 99% of all return reasons must be automatically validated by the system. The system will provide a list of options for the user to select as a return reason. The remaining 1% should allow for manual validation performed by an admin user within 24 hours, by allowing the users to specify "Other" and manually entering a return reason. 
 Originator: Polly Gray
 Comments:
 [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
@@ -16,3 +16,8 @@ Those in 'other' would need to be manually validated I would have thought and wo
 The system could also have a set of invalid reasons to select from within that set, 
 which would mean assessing percentage of validity passes could be tested,
 but this would degrade user experience.
+[LA] Based on the above comments, I made the following changes:
+- changed the type to 15
+- did not include the drop box, as this would specify a solution
+- included admin user for the manual validation
+- remove any ambiguity from the Fit Criterion
